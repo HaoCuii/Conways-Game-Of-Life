@@ -1,7 +1,7 @@
 import React from 'react';
 import { FaLifeRing, FaGamepad, FaInfoCircle, FaCogs } from 'react-icons/fa';
-import Conway from './components.jsx/conway';
-import patterns from '../Patterns.js';
+import Conway from '../components/Conway.jsx';
+import patterns from './patterns.js';
 
 const App = () => {
   const categories = {
