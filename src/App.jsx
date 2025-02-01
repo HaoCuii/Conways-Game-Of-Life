@@ -1,5 +1,5 @@
 import React from 'react';
-import ConwayGame from './components/conway';
+import ConwayGame from './components/conway.jsx';
 import patterns from '/patterns.js';
 
 const App = () => {
