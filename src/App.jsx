@@ -1,6 +1,6 @@
 import React from 'react';
-import ConwayGame from './components/conway.jsx';
-import patterns from '/patterns.js';
+import ConwayGame from './conway.jsx';
+import patterns from '../Patterns.js';
 
 const App = () => {
   const categories = {
