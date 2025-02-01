@@ -1,5 +1,5 @@
 import React from 'react';
-import Conway from '/components/Conway.jsx';
+import ConwayGame from './components/conway';
 import patterns from '/patterns.js';
 
 const App = () => {
@@ -61,7 +61,7 @@ const App = () => {
           
           <div className="flex gap-8 justify-center items-start">
             <div className="flex-1">
-              <Conway setPattern={setPattern} />
+              <ConwayGame setPattern={setPattern} />
             </div>
             
             <div className="w-80 bg-white rounded-2xl shadow-lg p-6">
